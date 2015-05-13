@@ -8,19 +8,19 @@
     "contenteditable",
     "editor",
     "rich editor",
-    "rich text editor",
-    "javascript"
+    "rich text editor"
   ],
   "main": "src/wysiwyg.js",
   "files": ["src/"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wysiwygjs/wysiwyg.js.git"
-  },
+  "style": "dist/wysiwyg-editor.css",
+  "repository": "wysiwygjs/wysiwyg.js",
   "bugs": {
     "url": "https://github.com/wysiwygjs/wysiwyg.js/issues"
   },
   "license": "Apache-2.0",
+  "dependencies": {
+    "jquery": ">=1.11.0"
+  },
   "devDependencies": {
     "clean-css": "^3.2.9",
     "uglify-js": "^2.4.21"
